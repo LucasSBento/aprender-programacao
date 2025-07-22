@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="../css/exemplo.css" />
+</head>
+<body>
+  <div class="dashboard">
+    <aside class="sidebar">
+      <h2 class="logo">NexaVerse</h2>
+      <nav>
+        <ul>
+          <li>Overview</li>
+          <li>Transactions</li>
+          <li>Customers</li>
+          <li>Reports</li>
+          <li>Settings</li>
+          <li>Developer</li>
+        </ul>
+      </nav>
+      <button class="logout">Log out</button>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <input type="text" placeholder="Search transactions, customers, subscriptions" />
+        <div class="profile-icon">👤</div>
+      </header>
+
+      <section class="cards">
+        <div class="card metric">Current MRR <span>$12.4k</span></div>
+        <div class="card metric">Current Customers <span>16,601</span></div>
+        <div class="card metric">Active Customers <span>33%</span></div>
+        <div class="card metric">Churn Rate <span>2%</span></div>
+      </section>
+
+      <section class="grid">
+        <div class="card">Trend (fake graph)</div>
+        <div class="card">Sales (pie chart)</div>
+        <div class="card">Transactions</div>
+        <div class="card">Support Tickets</div>
+        <div class="card">Customer Demographic</div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
